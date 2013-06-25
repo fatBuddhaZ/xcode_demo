@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84569A61778205400EBA766 /* libMAMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A84569A51778205400EBA766 /* libMAMapKit.a */; };
+		A84569A8177823FA00EBA766 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84569A7177823FA00EBA766 /* OpenGLES.framework */; };
 		A87970161778195100BD056F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87970151778195100BD056F /* UIKit.framework */; };
 		A87970181778195100BD056F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87970171778195100BD056F /* Foundation.framework */; };
 		A879701A1778195100BD056F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87970191778195100BD056F /* CoreGraphics.framework */; };
 		A87970201778195100BD056F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A879701E1778195100BD056F /* InfoPlist.strings */; };
 		A87970221778195100BD056F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87970211778195100BD056F /* main.m */; };
-		A87970261778195100BD056F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87970251778195100BD056F /* AppDelegate.m */; };
+		A87970261778195100BD056F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A87970251778195100BD056F /* AppDelegate.mm */; };
 		A87970281778195100BD056F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A87970271778195100BD056F /* Default.png */; };
 		A879702A1778195100BD056F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A87970291778195100BD056F /* Default@2x.png */; };
 		A879702C1778195100BD056F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A879702B1778195100BD056F /* Default-568h@2x.png */; };
 		A879702F1778195100BD056F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A879702D1778195100BD056F /* MainStoryboard.storyboard */; };
 		A87970321778195100BD056F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87970311778195100BD056F /* ViewController.m */; };
+		A87970391778199900BD056F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87970381778199900BD056F /* QuartzCore.framework */; };
+		A879703B177819A600BD056F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A879703A177819A600BD056F /* CoreLocation.framework */; };
+		A879703D177819B400BD056F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A879703C177819B400BD056F /* SystemConfiguration.framework */; };
+		A879703F177819BE00BD056F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A879703E177819BE00BD056F /* CoreTelephony.framework */; };
+		A8797041177819C900BD056F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8797040177819C900BD056F /* libz.dylib */; };
+		A879705F17781AAE00BD056F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A879705E17781AAE00BD056F /* AMap.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A84569A51778205400EBA766 /* libMAMapKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAMapKit.a; sourceTree = "<group>"; };
+		A84569A7177823FA00EBA766 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A87970121778195100BD056F /* PBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87970151778195100BD056F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A87970171778195100BD056F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,13 +40,39 @@
 		A87970211778195100BD056F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A87970231778195100BD056F /* PBike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PBike-Prefix.pch"; sourceTree = "<group>"; };
 		A87970241778195100BD056F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A87970251778195100BD056F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A87970251778195100BD056F /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		A87970271778195100BD056F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A87970291778195100BD056F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A879702B1778195100BD056F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A879702E1778195100BD056F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A87970301778195100BD056F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A87970311778195100BD056F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A87970381778199900BD056F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A879703A177819A600BD056F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A879703C177819B400BD056F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A879703E177819BE00BD056F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A8797040177819C900BD056F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A879704317781A8900BD056F /* MAAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAnnotation.h; sourceTree = "<group>"; };
+		A879704417781A8900BD056F /* MAAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAnnotationView.h; sourceTree = "<group>"; };
+		A879704517781A8900BD056F /* MACircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACircle.h; sourceTree = "<group>"; };
+		A879704617781A8900BD056F /* MACircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACircleView.h; sourceTree = "<group>"; };
+		A879704717781A8900BD056F /* MAGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGeometry.h; sourceTree = "<group>"; };
+		A879704817781A8900BD056F /* MAMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMapKit.h; sourceTree = "<group>"; };
+		A879704917781A8900BD056F /* MAMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMapView.h; sourceTree = "<group>"; };
+		A879704A17781A8900BD056F /* MAMultiPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMultiPoint.h; sourceTree = "<group>"; };
+		A879704B17781A8900BD056F /* MAOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOverlay.h; sourceTree = "<group>"; };
+		A879704C17781A8900BD056F /* MAOverlayPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOverlayPathView.h; sourceTree = "<group>"; };
+		A879704D17781A8900BD056F /* MAOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOverlayView.h; sourceTree = "<group>"; };
+		A879704E17781A8900BD056F /* MAPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPinAnnotationView.h; sourceTree = "<group>"; };
+		A879704F17781A8900BD056F /* MAPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPointAnnotation.h; sourceTree = "<group>"; };
+		A879705017781A8900BD056F /* MAPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolygon.h; sourceTree = "<group>"; };
+		A879705117781A8900BD056F /* MAPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolygonView.h; sourceTree = "<group>"; };
+		A879705217781A8900BD056F /* MAPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolyline.h; sourceTree = "<group>"; };
+		A879705317781A8900BD056F /* MAPolylineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPolylineView.h; sourceTree = "<group>"; };
+		A879705417781A8900BD056F /* MAShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAShape.h; sourceTree = "<group>"; };
+		A879705517781A8900BD056F /* MATypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATypes.h; sourceTree = "<group>"; };
+		A879705617781A8900BD056F /* MAUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAUserLocation.h; sourceTree = "<group>"; };
+		A879705E17781AAE00BD056F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +80,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84569A8177823FA00EBA766 /* OpenGLES.framework in Frameworks */,
+				A8797041177819C900BD056F /* libz.dylib in Frameworks */,
+				A879703F177819BE00BD056F /* CoreTelephony.framework in Frameworks */,
+				A879703D177819B400BD056F /* SystemConfiguration.framework in Frameworks */,
+				A879703B177819A600BD056F /* CoreLocation.framework in Frameworks */,
+				A87970391778199900BD056F /* QuartzCore.framework in Frameworks */,
 				A87970161778195100BD056F /* UIKit.framework in Frameworks */,
 				A87970181778195100BD056F /* Foundation.framework in Frameworks */,
 				A879701A1778195100BD056F /* CoreGraphics.framework in Frameworks */,
+				A84569A61778205400EBA766 /* libMAMapKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84569A41778205400EBA766 /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				A84569A51778205400EBA766 /* libMAMapKit.a */,
+			);
+			path = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
 		A87970091778195100BD056F = {
 			isa = PBXGroup;
 			children = (
+				A84569A7177823FA00EBA766 /* OpenGLES.framework */,
+				A84569A41778205400EBA766 /* Release-iphoneos */,
+				A879705D17781AAE00BD056F /* Resources */,
+				A879704217781A8900BD056F /* Headers */,
+				A8797040177819C900BD056F /* libz.dylib */,
+				A879703E177819BE00BD056F /* CoreTelephony.framework */,
+				A879703C177819B400BD056F /* SystemConfiguration.framework */,
+				A879703A177819A600BD056F /* CoreLocation.framework */,
+				A87970381778199900BD056F /* QuartzCore.framework */,
 				A879701B1778195100BD056F /* PBike */,
 				A87970141778195100BD056F /* Frameworks */,
 				A87970131778195100BD056F /* Products */,
@@ -84,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				A87970241778195100BD056F /* AppDelegate.h */,
-				A87970251778195100BD056F /* AppDelegate.m */,
+				A87970251778195100BD056F /* AppDelegate.mm */,
 				A879702D1778195100BD056F /* MainStoryboard.storyboard */,
 				A87970301778195100BD056F /* ViewController.h */,
 				A87970311778195100BD056F /* ViewController.m */,
@@ -105,6 +165,41 @@
 				A879702B1778195100BD056F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A879704217781A8900BD056F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A879704317781A8900BD056F /* MAAnnotation.h */,
+				A879704417781A8900BD056F /* MAAnnotationView.h */,
+				A879704517781A8900BD056F /* MACircle.h */,
+				A879704617781A8900BD056F /* MACircleView.h */,
+				A879704717781A8900BD056F /* MAGeometry.h */,
+				A879704817781A8900BD056F /* MAMapKit.h */,
+				A879704917781A8900BD056F /* MAMapView.h */,
+				A879704A17781A8900BD056F /* MAMultiPoint.h */,
+				A879704B17781A8900BD056F /* MAOverlay.h */,
+				A879704C17781A8900BD056F /* MAOverlayPathView.h */,
+				A879704D17781A8900BD056F /* MAOverlayView.h */,
+				A879704E17781A8900BD056F /* MAPinAnnotationView.h */,
+				A879704F17781A8900BD056F /* MAPointAnnotation.h */,
+				A879705017781A8900BD056F /* MAPolygon.h */,
+				A879705117781A8900BD056F /* MAPolygonView.h */,
+				A879705217781A8900BD056F /* MAPolyline.h */,
+				A879705317781A8900BD056F /* MAPolylineView.h */,
+				A879705417781A8900BD056F /* MAShape.h */,
+				A879705517781A8900BD056F /* MATypes.h */,
+				A879705617781A8900BD056F /* MAUserLocation.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A879705D17781AAE00BD056F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A879705E17781AAE00BD056F /* AMap.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +258,7 @@
 				A879702A1778195100BD056F /* Default@2x.png in Resources */,
 				A879702C1778195100BD056F /* Default-568h@2x.png in Resources */,
 				A879702F1778195100BD056F /* MainStoryboard.storyboard in Resources */,
+				A879705F17781AAE00BD056F /* AMap.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87970221778195100BD056F /* main.m in Sources */,
-				A87970261778195100BD056F /* AppDelegate.m in Sources */,
+				A87970261778195100BD056F /* AppDelegate.mm in Sources */,
 				A87970321778195100BD056F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +356,18 @@
 		A87970361778195100BD056F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PBike/PBike-Prefix.pch";
 				INFOPLIST_FILE = "PBike/PBike-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Release$(EFFECTIVE_PLATFORM_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-IMAMapKit",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -271,9 +376,18 @@
 		A87970371778195100BD056F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PBike/PBike-Prefix.pch";
 				INFOPLIST_FILE = "PBike/PBike-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Release$(EFFECTIVE_PLATFORM_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-IMAMapKit",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +412,7 @@
 				A87970371778195100BD056F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
